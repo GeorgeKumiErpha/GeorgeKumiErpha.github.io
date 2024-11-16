@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">YOUR EXPERIENCE FORM</h1>
+<p name="referrer" id="description">What is the feeling you had being on my first website</p>
+<form id="survey-form">
+ <fieldset>
+  <label for="name-label" id="name-label">Enter your full name:</label>
+  <input id="name" type="text" name="name" required placeholder="Biga Creation"/><br>
+  <label for="email" id="email-label">Enter your email address:</label>
+  <input id="email" pattern="username@text.com" placeholder="mywebsite@gmail.com" type="email" name="email" required/><br>
+   <label for="number" id="number-label">Enter your number:</label>
+  <input id="number" type="number" pattern="0-9" min="5" max="10" placeholder="+233 202 134 11"/><br>
+  <label for="dropdown">How did you get to know us:
+  </label>
+  <select id="dropdown">
+    <option>Tiktok</option>
+    <option>Instagram</option>
+    <option>From a friend</option>
+   </select>
+  <fieldset>
+    <p>Will you reccomend us to others??</p>
+  <label>YES</label>
+  <input type="radio" name="referrer" value="naa"/>
+  <label>No</label>
+  <input type="radio" name="referrer" value="yh">
+  </fieldset>
+  <fieldset>
+ <label>personal</label>
+ <input type="checkbox" value="purpose"/>
+ <input 
+ <label>business</label>
+ <input type="checkbox"value="purpose"/>
+  </fieldset>
+  <fieldset>
+    <label for="comments">Additional Comments:</label>
+  <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+  </fieldset>
+  <button id="submit" type="submit">Submit</button>
+</form> 
+</body>
+</html>

@@ -1,0 +1,18 @@
+h1 {
+    font-style: bold;
+    font-size: 30;
+    margin-left: 25%;
+    color: white;
+  }
+  body {
+    font-family: heltica;  background-color: brown;
+    max-width: width-device;
+  }
+  
+  p[name="referrer"] {
+  color: white;
+  margin-left: 29%; 
+  }
+  p {
+    color: black;
+  }
